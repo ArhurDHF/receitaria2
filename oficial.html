@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exemplo Simples</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 5px solid #556b2f; /* Borda verde musgo */
+            border-radius: 10px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .intro h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .item img {
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            border-radius: 8px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+
+        .item p {
+            font-size: 1rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <h1>RECEITARIA</h1>
+            <br>
+            <p>As sobremesas são o toque final de uma refeição, trazendo doçura e encerrando a experiência com satisfação. De clássicos como bolos e tortas a opções modernas como mousses e sorvetes, elas oferecem uma variedade infinita de combinações. Simples ou sofisticadas, refletem criatividade e proporcionam conforto e prazer, celebrando a arte da culinária doce.</p>
+        </div>
+
+        <div class="content">
+            <div class="item">
+                <img src="boloDeCenoura.jpg" alt="Imagem 1">
+                <a href="teste3.html">
+                    <p>Receita: BOLO de CENOURA com calda de CHOCOLATE que derrete na boca</p>
+                </a>
+            </div>
+
+            <div class="item">
+                <img src="bronie.jpeg" alt="Imagem 2">
+                <a href="pagina-imagem2.html">
+                    <p>Receita: BROWNIE macio rápido e prático</p>
+                </a>
+            </div>
+
+            <div class="item">
+                <img src="pudim.jpg" alt="Imagem 3">
+                <a href="teste.html">
+                    <p>Receita: PUDIM mais gostoso que o da sua avó</p>
+                </a>
+            </div>
+            <div class="item">
+                <img src="tiramissu.jpg" alt="Imagem 4">
+                <a href="teste2.html">
+                    <p>Receita: TIRAMISSU, o doce mais badalado pelos chefs ao redor do mundo</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
